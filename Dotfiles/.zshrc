@@ -20,6 +20,7 @@ bindkey '^]' forward-word
 bindkey '^[' backward-word
 
 export PATH=/Applications/MAMP/bin/php/php7.1.6/bin:$PATH
+export PATH=~/.composer/vendor/bin:$PATH
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"

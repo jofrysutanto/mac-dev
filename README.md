@@ -64,6 +64,7 @@ npm install --global pure-prompt
 
 ```
 composer global require hirak/prestissimo
+composer global require "squizlabs/php_codesniffer=*"
 ```
 
 ## Checkpoint
