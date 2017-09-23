@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Alignment",
+		"ayu",
+		"DocBlockr",
+		"GitGutter",
+		"GitSavvy",
+		"Package Control",
+		"PHP Companion",
+		"Sass",
+		"SideBarEnhancements",
+		"Vue Syntax Highlight",
+		"ZSH"
+	]
+}

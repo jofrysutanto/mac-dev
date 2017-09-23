@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<?php
+namespace ${1:App};
+
+class ${2:MyClass} ${3:extends ${4:AbstractClass}}
+{
+	${0}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php, source.html</scope> -->
+</snippet>
