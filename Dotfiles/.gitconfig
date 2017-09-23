@@ -1,0 +1,9 @@
+[user]
+    name = Jofry Sutanto
+    email = jofrysutanto@gmail.com
+[github]
+    user = jofrysutanto
+[credential]
+    helper = osxkeychain
+[core]
+	editor = subl -n -w~

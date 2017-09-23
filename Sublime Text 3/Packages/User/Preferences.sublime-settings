@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
+	"theme": "ayu-dark.sublime-theme",
+	"ui_font_default": true
+}

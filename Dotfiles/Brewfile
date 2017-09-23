@@ -1,0 +1,21 @@
+tap 'caskroom/cask'
+
+brew 'git'
+brew 'npm'
+brew 'zsh'
+brew 'zsh-completions'
+brew 'yarn'
+
+cask 'flux'
+cask 'firefox'
+cask 'gimp'
+cask 'transmit'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'sublime-text'
+cask 'mamp'
+cask 'sequel-pro'
+cask 'vlc'
+
+mas 'Slack', id: 803453959
+mas 'Magnet', id: 441258766
