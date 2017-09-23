@@ -128,7 +128,8 @@ module.exports = {
     'hyperterm-summon',
     'hyper-snazzy',
     'hyper-transparent-dynamic',
-    'hyper-statusline'
+    'hyper-statusline',
+    'hypercwd'
   ],
 
   // in development, you can create a directory under
