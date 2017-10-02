@@ -6,7 +6,7 @@ ZSH_THEME=""
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git sublime zsh-syntax-highlighting)
+plugins=(git sublime zsh-syntax-highlighting osx)
 
 source $ZSH/oh-my-zsh.sh
 
