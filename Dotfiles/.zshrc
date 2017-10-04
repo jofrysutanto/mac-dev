@@ -30,4 +30,5 @@ alias htdocs="cd ~/Documents/htdocs"
 alias theme="cd ./wp-content/themes/"
 alias g='gulp'
 alias art='php artisan'
+alias hosts='sudo subl /etc/hosts'
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
