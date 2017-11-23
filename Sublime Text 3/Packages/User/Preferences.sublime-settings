@@ -5,8 +5,9 @@
 	[
 		"Vintage"
 	],
-	"line_padding_bottom": 4,
-	"line_padding_top": 4,
-	"theme": "ayu-dark.sublime-theme",
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
+	"theme": "ayu-mirage.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"ui_font_default": true
 }
