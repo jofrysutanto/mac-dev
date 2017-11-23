@@ -17,6 +17,7 @@ cask 'sublime-text'
 cask 'mamp'
 cask 'sequel-pro'
 cask 'vlc'
+cask 'spotify'
 
 mas 'Slack', id: 803453959
 mas 'Magnet', id: 441258766
