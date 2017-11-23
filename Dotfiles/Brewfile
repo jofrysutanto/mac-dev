@@ -8,6 +8,7 @@ brew 'yarn'
 
 cask 'flux'
 cask 'firefox'
+cask 'firefoxdeveloperedition'
 cask 'gimp'
 cask 'transmit'
 cask 'google-chrome'
