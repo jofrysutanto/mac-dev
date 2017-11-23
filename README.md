@@ -6,6 +6,12 @@ Heavily inspired by this article by Tania Rascia: https://www.taniarascia.com/se
 
 # Steps
 
+## Quick OSX Customisations
+
+```
+defaults write com.apple.finder AppleShowAllFiles YES
+```
+
 ## Homebrew
 
 The ultimate tool to install anything in Mac
