@@ -6,11 +6,27 @@ Heavily inspired by this article by Tania Rascia: https://www.taniarascia.com/se
 
 # Steps
 
-## Quick OSX Customisations
+## OSX Preferences
+
+> For the `screencapture` command to work, make sure a folder called 'Screenshots' is available on Desktop
 
 ```
+chflags nohidden ~/Library
 defaults write com.apple.finder AppleShowAllFiles YES
+defaults write com.apple.finder ShowPathbar -bool true
+defaults write com.apple.finder ShowStatusBar -bool true
+defaults write com.apple.screencapture location ~/Desktop/Screenshots/
 ```
+
+You will need to restart UI shell by running this command
+```
+killall SystemUIServer
+```
+
+Relaunch your Finder by holding Option + Right-Click on Finder
+
+Additional preferences settings (from System Preferences menu)
+- Go to Power settings to show battery level (Macbook)
 
 ## Homebrew
 
@@ -78,28 +94,6 @@ By this point brew would have installed a whole suite of applications on the mac
 
 - Run Hyper for the first time to install all plugins
 - Run Sublime Text for the first time to install all plugins (enter License key too if have one.)
-
-## Various OSX Preferences
-
-> For the `screencapture` command to work, make sure a folder called 'Screenshots' is available on Desktop
-
-```
-chflags nohidden ~/Library
-defaults write com.apple.finder AppleShowAllFiles YES
-defaults write com.apple.finder ShowPathbar -bool true
-defaults write com.apple.finder ShowStatusBar -bool true
-defaults write com.apple.screencapture location ~/Desktop/Screenshots/
-```
-
-You will need to restart UI shell by running this command
-```
-killall SystemUIServer
-```
-
-Relaunch your Finder by holding Option + Right-Click on Finder
-
-Additional preferences settings (from System Preferences menu)
-- Go to Power settings to show battery level (Macbook)
 
 ## Generate SSH keys
 
