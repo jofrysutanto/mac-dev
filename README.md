@@ -95,6 +95,8 @@ By this point brew would have installed a whole suite of applications on the mac
 - Run Hyper for the first time to install all plugins
 - Run Sublime Text for the first time to install all plugins (enter License key too if have one.)
 
+> When opening Sublime Text for the very first time, it might show warning about missing Packages. Simply run 'Install Package Control' command from command palette. Restart Sublime after (it will throw the same warning again) and let it install all packages in the background.
+
 ## Generate SSH keys
 
 ```

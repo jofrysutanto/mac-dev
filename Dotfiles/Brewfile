@@ -20,3 +20,4 @@ cask 'vlc'
 
 mas 'Slack', id: 803453959
 mas 'Magnet', id: 441258766
+mas 'App Cleaner & Uninstaller', id: 1013897218
