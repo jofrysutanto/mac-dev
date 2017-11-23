@@ -1,6 +1,6 @@
 # Mac Machine Setup Guide
 
-Just a step-by-step guide on setting up new Mac machine - targeted for Web Developers.
+Step-by-step guide on setting up new Mac machine - targeted for Web Developers.
 
 Heavily inspired by this article by Tania Rascia: https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/
 
