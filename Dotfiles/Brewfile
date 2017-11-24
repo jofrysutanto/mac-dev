@@ -18,6 +18,7 @@ cask 'mamp'
 cask 'sequel-pro'
 cask 'vlc'
 cask 'spotify'
+cask 'imageoptim'
 
 mas 'Slack', id: 803453959
 mas 'Magnet', id: 441258766
