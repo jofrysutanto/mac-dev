@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@include media-breakpoint-up(${1:sm}) {
+    ${2:css...}
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bmup</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.htm, text.html</scope> -->
+</snippet>
