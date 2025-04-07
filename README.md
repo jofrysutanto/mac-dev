@@ -28,12 +28,26 @@ Relaunch your Finder by holding Option + Right-Click on Finder
 Additional preferences settings (from System Preferences menu)
 - Go to Power settings to show battery level (Macbook)
 
+## Node
+
+Install NVM 
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+```
+
 ## Homebrew
 
 The ultimate tool to install anything in Mac
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+```
+echo >> /Users/jofry/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/jofry/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 ## App Store CLI
@@ -52,11 +66,9 @@ Copy the content of `Dotfiles/` directory into current user directory (`~/`)
 brew bundle install
 ```
 
-## Copy Sublime Text 3 Preferences
-
-Copy the content of `Sublime Text 3/` to `~/Library/Application Support/Sublime Text 3/`
-
 ## Install composer
+
+This step is optional if Herd is installed.
 
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -64,41 +76,4 @@ php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece38
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
-```
-
-## Install Oh-My-Zsh
-
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
-## Global Node
-
-```
-npm install --global gulp-cli
-# Hyper package manager
-npm install --global hpm-cli
-# Used for zsh theme
-npm install --global pure-prompt
-```
-
-## Global Composer
-
-```
-composer global require hirak/prestissimo
-```
-
-## Checkpoint
-
-By this point brew would have installed a whole suite of applications on the machine.
-
-- Run Hyper for the first time to install all plugins
-- Run Sublime Text for the first time to install all plugins (enter License key too if have one.)
-
-> When opening Sublime Text for the very first time, it might show warning about missing Packages. Simply run 'Install Package Control' command from command palette. Restart Sublime after (it will throw the same warning again) and let it install all packages in the background.
-
-## Generate SSH keys
-
-```
-ssh-keygen -t rsa -b 4096 -C "jofrysutanto@gmail.com"
 ```

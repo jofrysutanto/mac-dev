@@ -1,26 +1,19 @@
 # tap 'caskroom/cask'
 
 brew 'git'
-brew 'node@8'
 brew 'zsh'
 brew 'zsh-completions'
-brew 'yarn'
 
-#cask 'flux'
 cask 'firefox'
-#cask 'gimp'
+cask 'firefox@developer-edition'
 cask 'transmit'
 cask 'google-chrome'
-cask 'hyper'
-cask 'sublime-text'
+cask 'warp'
 cask 'visual-studio-code'
-#cask 'mamp'
-cask 'sequel-pro'
-#cask 'vlc'
-#cask 'spotify'
 cask 'imageoptim'
-cask 'sourcetree'
-#cask 'alfred'
+cask 'alfred'
+cask 'herd'
+cask 'obsidian'
 
-#mas 'Slack', id: 803453959
-#mas 'Magnet', id: 441258766
+mas 'Slack', id: 803453959
+mas 'Sequel Ace', id: 1518036000
